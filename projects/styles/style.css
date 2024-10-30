@@ -1,0 +1,44 @@
+
+*{
+    margin: 0;
+    color: white;
+    font-family: monospace,'Courier New', Courier ;
+}
+header{
+    background-color: rgb(45, 80, 110);
+    padding: 2%;
+}
+section{
+    background-color: rgb(47, 79, 107);
+    padding: 2%;
+}
+
+body main{
+    background-image: url("sky\ three.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+main .main{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 1%;
+}
+main .nav select{
+    opacity: 0.8;
+    padding: 1%;
+    width: 100%;
+    font-size: 1.4em;
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid transparent;
+    border-bottom: 2px solid white;
+    
+}
+
+footer{
+    background-color: rgb(47, 79, 107);
+    text-align: center;
+    padding: 2%;
+}
