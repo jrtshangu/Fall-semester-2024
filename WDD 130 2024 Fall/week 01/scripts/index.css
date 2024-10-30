@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: aliceblue;
+}
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+    letter-spacing: 1.2px;
+    font-size: 1.4em;
+    margin-right: 3%;
+    
+}
+nav{
+    background-color: rgb(41, 53, 116);
+    color: aliceblue;
+    padding: 2%;
+}
+
+
+main h1{
+    
+    padding-left: 2%;
+}
+
+main img{
+    padding-left: 2%;
+    width: 20%;
+    
+}
+main p{
+    padding-left: 2%;
+    
+}
+
+footer{
+    margin-top: 5%;
+    text-align: center;
+    background-color: rgb(41, 53, 116);
+    color: white;
+    padding: 1%;
+}
