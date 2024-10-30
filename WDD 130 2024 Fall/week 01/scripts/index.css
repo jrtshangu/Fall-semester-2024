@@ -17,25 +17,20 @@ nav{
     color: aliceblue;
     padding: 2%;
 }
-
-
-main h1{
-    
+main .main{
     padding-left: 2%;
 }
 
-main img{
-    padding-left: 2%;
+main img{ 
+    grid-column: 1/2;
+    grid-row: 1/1;
     width: 20%;
     
 }
-main p{
-    padding-left: 2%;
-    
-}
+
 
 footer{
-    margin-top: 5%;
+    margin-top: 2%;
     text-align: center;
     background-color: rgb(41, 53, 116);
     color: white;
