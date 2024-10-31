@@ -50,7 +50,7 @@ main .main{
 }
 main .main .nav{
     background-color: rgb(74, 133, 243);
-    padding: 2%;
+    padding: 1%;
     color: white;
 }
 main .main h2, h3,h4{
@@ -75,8 +75,8 @@ main .nav select option{
 }
 
 main .nav .images img, video{
-    width: 98%;
-    border: 4px solid white;
+    width: 100%;
+    border: 2px solid white;
     margin-top: 5%;
 }
 
