@@ -75,7 +75,7 @@ main .nav select option{
 }
 
 main .nav .images img, video{
-    width: 100%;
+    width: 99%;
     border: 2px solid white;
     margin-top: 5%;
 }
