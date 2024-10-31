@@ -5,10 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Traffic Tracker</title>
     <link rel="stylesheet" href="styles/style.css">
+    <script href="scripts/script.js"></script>
 </head>
 <body>
     <header>
-        <h1>Your Traffic Tracker</h1>
+        
+        <div class="header">
+            <h1>Welcome to Kinshasa</h1>
+            <div class="navigate">
+                <a href="#">Traffics</a>
+                <a href="#">Meteo</a>
+                <a href="#">Sites</a>
+                <a href="#">Videos</a>
+                <a href="#">Transport-Means</a>
+
+            </div>
+        </div>
         
     </header>
     <section class="goal">
@@ -26,22 +38,49 @@
     <main>
         <div class="main">
             <div class="nav">
-                <h2>Select track your path</h2>
-                <select name="areas" id="kinshasa-areas">
-                    <option value="tshangu-q1" id="ts-q1">Tshangu Masina Q1</option>
-                    <option value="tshangu-bitabe" id="ts-bitabe">Tshangu Masina Bitabe</option>
-                    <option value="tshangu-q2" id="ts-q2">Tshangu Masina Q2</option>
-                    <option value="tshangu-q3" id="ts-q3">Tshangu Masina Q3</option>
-                    <option value="tshangu-tj" id="ts-tj">Tshangu Terre Jaune</option>
+                <h2>Plann your traffic ahead</h2>
+                <h3>Select an area here</h3>
+                <select name="areas" id="kinshasa-areas" >
+                    <option value="tshangu-q1" id="ts-q1" onclick="choose()">Tshangu Masina Q1</option>
+                    <option value="tshangu-bitabe" id="ts-bitabe" onclick="chooseB()">Tshangu Masina Bitabe</option>
+                    <option value="tshangu-q2" id="ts-q2" onclick="chooseQ2()">Tshangu Masina Q2</option>
+                    <option value="tshangu-q3" id="ts-q3" onclick="choose()">Tshangu Masina Q3</option>
+                    <option value="tshangu-tj" id="ts-tj" onclick="choose()">Tshangu Terre Jaune</option>
 
                 </select>
+
+                <div class="images">
+                    
+                    <video src="images/'Robocop’ maintains traffic flow in Congo.mp4" controls></video>
+                    <img src="images/traffic robot.jpg" alt="traffic robot">
+                    <img src="images/lagos-traffic.jpg" alt="kinshasa traffic">
+
+                </div>
 
             </div>
 
             <div class="display">
-                <h3>
-                    Result here
-                </h3>
+                <div id="box-one">
+                    <h1 id="area-result">Location</h1>
+                    <label id="date">Date</label>
+                
+                    <p>Here is the current status of your selcted area</p>
+                </div>
+                <div id="box-two">
+                    <h3>Traffic status</h3>
+                    <p>Here is the current status of your selcted area</p>
+                </div>
+                    
+                <div id="box-three">
+                    <h4 id="road-name">Road available</h4>
+                </div>
+                <div id="box-four">
+                    
+                </div>
+                
+
+                
+
 
             </div>
 
@@ -50,6 +89,31 @@
 
     <footer>
         <div class="footer">
+            <div class="aboutUs">
+                <div class="info">
+                    <h3>Why this website?</h3>
+                    <p>
+                        We know that nowadays traffics became like our
+                        daily challenges and sometimes we don't know exactly
+                        what is ahead of us, but we can at least plan ahead before
+                        going out.
+                    </p>
+                    <p>
+                        This website is intended specifically to helping us know
+                        which routes to use and avoid, so we are completely aware and extrat prepared
+                    </p>
+
+                </div>
+
+                <div class="social-links">
+                    <a href="#">Facebook</a>
+                    <a href="#">YouTube</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">TikTok</a>
+
+                </div>
+
+            </div>
 
             <div id="copyright">
                 <p>Copyright &copy; October 2024 | Seesight Initiative | by Jean Robert Tshangu</p>
