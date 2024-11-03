@@ -5,25 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Traffic Tracker</title>
     <link rel="stylesheet" href="styles/style.css">
-    <script href="scripts/script.js"></script>
+    <script src="scripts/script.js"></script>
 </head>
+
 <body>
     <header>
         
         <div class="header">
             <h1>Welcome to Kinshasa</h1>
             <div class="navigate">
+                <a href="#">Home</a>
+                <a href="#" onclick="aboutUs()">AboutUs</a>
                 <a href="#">Traffics</a>
-                <a href="https://www.meteocity.com/republique-democratique-du-congo/kinshasa-v2314302">Meteo</a>
-                <a href="#">Tourisme</a>
+                <a href="https://www.meteocity.com/republique-democratique-du-congo/kinshasa-v2314302">Temperature</a>
                 <a href="#">Videos</a>
-                <a href="#">Transport-Means</a>
 
             </div>
         </div>
         
     </header>
-    <section class="goal">
+    <section class="aboutUs" id="aboutUs">
+        <h3>Why this website?</h3>
+        <p>
+            We know that nowadays traffics became like our
+            daily challenges and sometimes we don't know exactly
+            what is ahead of us, but we can at least plan ahead before
+            going out.
+        </p>
+        <p>
+            This website is intended specifically to helping us know
+            which routes to use and avoid, so we are completely aware and extrat prepared
+        </p>
         <p>
             This page is intended to help you prepare your trip
             in advance and it is intended to help you be aware
@@ -35,6 +47,14 @@
              you are driving or going out
         </p>
     </section>
+
+    <section>
+        <div class="video">
+            <video src="images/'Robocop’ maintains traffic flow in Congo.mp4" controls></video>
+
+        </div>
+    </section>
+
     <main>
         <div class="main">
             <div class="nav">
@@ -48,14 +68,6 @@
                     <option value="tshangu-tj" id="ts-tj" onclick="choose()">Tshangu Terre Jaune</option>
 
                 </select>
-
-                <div class="images">
-                    
-                    <video src="images/'Robocop’ maintains traffic flow in Congo.mp4" controls></video>
-                    <img src="images/traffic robot.jpg" alt="traffic robot">
-                    <img src="images/lagos-traffic.jpg" alt="kinshasa traffic">
-
-                </div>
 
             </div>
 
@@ -89,19 +101,9 @@
 
     <footer>
         <div class="footer">
-            <div class="aboutUs">
+            <div class="contacts">
                 <div class="info">
-                    <h3>Why this website?</h3>
-                    <p>
-                        We know that nowadays traffics became like our
-                        daily challenges and sometimes we don't know exactly
-                        what is ahead of us, but we can at least plan ahead before
-                        going out.
-                    </p>
-                    <p>
-                        This website is intended specifically to helping us know
-                        which routes to use and avoid, so we are completely aware and extrat prepared
-                    </p>
+                   <h3>Explore more here </h3>
 
                 </div>
 
