@@ -28,7 +28,7 @@ header .header a:hover{
     border-bottom: 2px solid rgb(251, 4, 4);
     box-shadow: 1px 2px 2px rgb(248, 246, 246);
 }
-
+/*Working the section elements*/
 .aboutUs{
     background-color: aliceblue;
     padding: 2%;
@@ -42,6 +42,7 @@ header .header a:hover{
   box-shadow: 1px 2px 1px black;
 }
 
+/*Working the body main elements*/
 body main{
     background-color: white;
     
@@ -58,6 +59,8 @@ main .main .nav{
     background-color: rgb(74, 133, 243);
     padding: 1%;
     color: white;
+    
+    align-content: center;
 }
 
 main .nav select{
@@ -76,8 +79,7 @@ main .nav select option{
     background-color: rgb(74, 133, 243);
 }
 
-
-
+/*Working the main display div elements*/
 main .display{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -134,7 +136,7 @@ main .display{
     border-radius: 10%/10%;
     box-shadow: 1px 2px 1px black;
 }
-
+/*Working on footer*/
 footer .footer{
     display: grid;
     grid-template-rows: 2fr 0.5fr;
