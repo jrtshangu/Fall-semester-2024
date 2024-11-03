@@ -67,8 +67,7 @@ header .header a:hover{
 
 /*Working the body main elements*/
 body main{
-    background-color: white;
-    
+    background-color: white;   
 }
 
 main .main{
@@ -82,8 +81,9 @@ main .main .nav{
     background-color: rgb(74, 133, 243);
     padding: 1%;
     color: white;
-    
+    margin-top: 5%;
     align-content: center;
+    height: 100%;
 }
 
 main .nav select{
@@ -91,9 +91,11 @@ main .nav select{
     width: 98%;
     font-size: 1.4em;
     text-align: center;
-    background-color: transparent;
+    background-color: white;
     border: 2px solid transparent;
-    border-bottom: 2px solid rgb(248, 248, 250);
+    border: 2px solid rgb(248, 248, 250);
+    margin-top: 10%;
+    color: rgb(10, 10, 10);
     
     
 }
@@ -202,7 +204,7 @@ main .display{
     border-bottom: 2px solid red;
 }
 .textarea input{
-    width: 95%;
+    width: 98%;
     margin-top: 2%;
     border: 2px solid transparent;
     background-color: rgb(74, 133, 243);
@@ -217,6 +219,7 @@ main .display{
 
 /*Working on footer*/
 footer .footer{
+    margin-top: 5%;
     display: grid;
     grid-template-rows: 2fr 0.5fr;
     
