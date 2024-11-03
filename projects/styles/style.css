@@ -159,6 +159,62 @@ main .display{
     border-radius: 10%/10%;
     box-shadow: 1px 2px 1px black;
 }
+
+/*Comment classes*/
+.comments{
+    margin-top: 10%;
+    display: block;
+    margin-left: 2%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.comments h2{
+    text-align: center;
+    width: 100%;
+}
+/*Textarea button*/
+.textarea button{
+    background-color: rgb(74, 133, 243);
+    color: white;
+    border-radius: 10%/10%;
+    border: 2px solid transparent;
+    padding: 3px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 2%;
+}
+.textarea button:hover{
+    color: rgb(255, 4, 0);
+    box-shadow: 2px 2px 2px red;
+    background-color: yellow;
+}
+.textarea{
+    grid-column: 1;
+    width: 100%;
+}
+/*Textarea and input*/
+.textarea textarea{
+    width: 95%;
+    background-color: rgb(74, 133, 243);
+    color: white;
+    padding: 2%;
+    border: 2px solid transparent;
+    border-bottom: 2px solid red;
+}
+.textarea input{
+    width: 95%;
+    margin-top: 2%;
+    border: 2px solid transparent;
+    background-color: rgb(74, 133, 243);
+    color: white;
+}
+
+.comments .posts{
+    background-color: aliceblue;
+    margin-left: 2%;
+    padding: 2%;
+}
+
 /*Working on footer*/
 footer .footer{
     display: grid;
