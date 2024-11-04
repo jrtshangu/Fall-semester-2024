@@ -121,6 +121,15 @@ main .form button:hover{
     box-shadow: 1px 2px 1px black;
     background-color: yellow;
 }
+main .form a{
+    text-decoration: none;
+    color: yellow;
+    font-size: 1.3em;
+}
+main .form p{
+    margin-top: 5%;
+}
+
 
 /*woriking on the connection form*/
 main .form-two{
@@ -149,7 +158,7 @@ main .form-two input{
     margin: 0 auto;
     width: 80%;
     font-size: 1.2em;
-    margin-top: 1%;
+    margin-top: 5%;
     
 }
 main .form-two input:hover{
@@ -162,7 +171,7 @@ main .form-two button{
     color: rgb(74, 133, 243);
     display: block;
     margin: 0 auto;
-    margin-top: 3%;
+    margin-top: 10%;
     font-size: 1.5em;
     border-radius: 10%/10%;
     cursor: pointer;
@@ -178,6 +187,9 @@ main .form-two a{
     text-decoration: none;
     color: yellow;
     font-size: 1.3em;
+}
+main .form-two p{
+    margin-top: 5%;
 }
 
 /*Working on footer*/
