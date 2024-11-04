@@ -169,6 +169,10 @@ main .display{
     margin-left: 2%;
     display: grid;
     grid-template-columns: 1fr 2fr;
+    grid-gap: 1%;
+}
+.comments{
+    display: none;
 }
 .comments h2{
     text-align: center;

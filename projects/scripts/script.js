@@ -7,8 +7,3 @@
 //let tsQ3 = document.getElementById("ts-q3");
 //let tsTj  = document.getElementById("ts-tj");
 
-function aboutUs(){
-    let aboutUs = document.getElementById("aboutUS");
-    let section = document.getElementsByClassName("aboutUS");
-    section.style.display = "block";
-}
