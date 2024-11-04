@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practicing Databae</title>
     <link rel="stylesheet" href="styles/registration.css">
+    <script src="scripts/script.js"></script>
 </head>
 <body>
     <header>
@@ -35,18 +36,18 @@
     </header>
     <main>
 
-        <div class="form-two" id="connection">
+        <div class="form-two" id="connect">
             <h1>Connection</h1>
             <form action="log-in.php" method="post">
                 <input type="username" name="username" id="username" placeholder="username">
                 <input type="password" name="password" id="password" placeholder="password">
                 <button>Connect</button>
             </form>
-            <p>Don't have an account? <a href="#" onclick="register()">Register</a> </p>
+            <p>Don't have an account? <a href="#" onclick="signUp()">Register</a> </p>
 
         </div>
-        
-        <div class="form" id="create-account">
+
+        <div class="form" id="register">
             <form action="registration.php" method="post">
                 <h1>Registration</h1>
                 <div class="inputs">
