@@ -9,6 +9,9 @@ header{
     color: white;
     height: 10%;
 }
+header img{
+    width: 2em;
+}
 
 header .header{
     display: grid;
@@ -19,7 +22,7 @@ header .header{
 }
 header .header .navigate{
     display: grid;
-    grid-template-columns: repeat(3,0.5fr);
+    grid-template-columns: 0.5fr 1fr 0.5fr;
     grid-gap: 2%;
     align-items: center;
 }
@@ -35,19 +38,26 @@ header .header .navigate .media{
     padding: 2%;
 
 }
-header .header a{
+header .header  a{
     text-decoration: none;
     font-size: 1.2em;
     margin-right: 1.4%;
     color: white;
 }
 /*Links hovering effects*/
-header .header a:hover{
+header .header .media a:hover{
     transition: all 0.3s ease-in-out;
     background-color: white;
     color: rgb(74, 133, 243);
     
 }
+header .header .info a:hover{
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+    color: rgb(74, 133, 243);
+    
+}
+
 body{
     background-color: rgb(252, 252, 253);
     
@@ -109,6 +119,20 @@ main .form button:hover{
     color: red;
     box-shadow: 1px 2px 1px black;
     background-color: yellow;
+}
+
+main .form-two{
+    height: 15em;
+    width: 20em;
+    display: block;
+   margin: 0 auto;
+   margin-top: 5%;
+   background-color: rgb(74, 133, 243);
+    border-radius: 10%/10%;
+    padding: 2%;
+    color: white;
+    border: 2px solid white;
+    box-shadow: 1px 2px 1px black;
 }
 /*Working on footer*/
 footer .footer{

@@ -13,7 +13,7 @@
             <h1>Seesight Registration Page</h1>
             <div class="navigate">
                 <div class="info">
-                    <a href="#">Home</a>
+                    <a href="traffic-tracker.html">Home</a>
                     <a href="#" onclick="aboutUs()">AboutUs</a>
                 </div>
 
@@ -24,7 +24,8 @@
                 </div>
 
                 <div class="conection">
-                    <a href="#">LogIn</a>
+                    <a href="#"><img src="images/lang.png" alt=""></a>
+                    <a href="registration-form.html"><img src="images/login.png" alt=""></a>
                 </div>
                 
 
@@ -34,7 +35,7 @@
     </header>
     <main>
         <div class="form">
-            <form action="connect.php" method="post">
+            <form action="registration.php" method="post">
                 <h1>Registration</h1>
                 <div class="inputs">
                     <input type="firstName" name="firstName" id="firstName" placeholder="first Name">
@@ -47,11 +48,22 @@
                     <input type="password" name="password" id="password" placeholder="password">
                     <input type="password" name="confirmPassworrd" id="confirmPassword" placeholder="confirm Password">
                     <button>Submit</button>
-
-                </div>
+                </form>
+                <p>Already have an account? <a href="#">Sign In</a> </p>
+            </div>
                 
+           
+            
+        </div>
+        <div class="form-two">
+            <h1>Connection</h1>
+            <form action="log-in.php" method="post">
+                <input type="username" name="username" id="username" placeholder="username">
+                <input type="password" name="password" id="password" placeholder="password">
+                <button>Connect</button>
             </form>
-            <p>Already have an account? <a href="#">Sign In</a> </p>
+            <p>Don't have an account? <a href="#">Register</a> </p>
+
         </div>
         
     </main>
