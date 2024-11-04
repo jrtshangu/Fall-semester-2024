@@ -74,6 +74,7 @@ main .form{
     color: white;
     border: 2px solid white;
     box-shadow: 1px 2px 1px black;
+    display: none;
 
 
 }
@@ -121,6 +122,7 @@ main .form button:hover{
     background-color: yellow;
 }
 
+/*woriking on the connection form*/
 main .form-two{
     height: 15em;
     width: 20em;
@@ -134,6 +136,50 @@ main .form-two{
     border: 2px solid white;
     box-shadow: 1px 2px 1px black;
 }
+main .form-two h1{
+    text-align: center;
+}
+main .form-two input{
+    text-align: center;
+    background-color: transparent; 
+    border: 2px solid transparent;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255); 
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    font-size: 1.2em;
+    margin-top: 1%;
+    
+}
+main .form-two input:hover{
+    border: 2px solid transparent;
+    border-bottom: 2px solid red;
+}
+main .form-two button{
+    background-color: white;
+    border: 2px solid transparent;
+    color: rgb(74, 133, 243);
+    display: block;
+    margin: 0 auto;
+    margin-top: 3%;
+    font-size: 1.5em;
+    border-radius: 10%/10%;
+    cursor: pointer;
+
+}
+main .form-two button:hover{
+    transition: all 0.2s ease-in-out;
+    color: red;
+    box-shadow: 1px 2px 1px black;
+    background-color: yellow;
+}
+main .form-two a{
+    text-decoration: none;
+    color: yellow;
+    font-size: 1.3em;
+}
+
 /*Working on footer*/
 footer .footer{
     margin-top: 5%;
