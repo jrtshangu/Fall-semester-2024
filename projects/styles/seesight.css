@@ -1,20 +1,78 @@
 /*working on the registration fom*/
-main .form{
-    height: 27em;
-    width: 20em;
+main .navigation{
+    height: 80%;
+    width: 60%;
     display: block;
-   margin: 0 auto;
-   margin-top: 5%;
-   background-color: rgb(74, 133, 243);
+    margin: 0 auto;
+    margin-top: 5%;
+    background-color: rgb(74, 133, 243);
     border-radius: 10%/10%;
     padding: 2%;
-    color: white;
+    color: rgb(255, 255, 255);
     border: 2px solid white;
     box-shadow: 1px 2px 1px black;
-    display: none;
+    
 
 
 }
-main .form h1{
+
+main .navigation h1{
     text-align: center;
+}
+
+main .navigation .quick-links{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 2%;
+    padding: 2%;
+    text-align: center;
+}
+.quick-links a{
+    text-decoration: none;
+    font-size: 2em;
+}
+.quick-links a:hover{
+    color: red;
+}
+#language{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    padding: 2%;
+    border-radius: 10%/10%;
+    box-shadow: 1px 2px 1px black;
+}
+#language:hover{
+    transition: all 0.2s ease-in-out;
+    color: red;
+    background-color: rgb(160, 181, 199);
+    box-shadow: 1px 3px 1px white;
+}
+#tourism{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    padding: 2%;
+    border-radius: 10%/10%;
+    box-shadow: 1px 2px 1px black;
+}
+#tourism:hover{
+    transition: all 0.2s ease-in-out;
+    
+    background-color: rgb(100, 130, 156);
+    box-shadow: 1px 3px 1px rgb(245, 97, 97);
+}
+#online-book{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    padding: 2%;
+    border-radius: 10%/10%;
+    box-shadow: 1px 2px 1px black;
+}
+#online-book:hover{
+    transition: all 0.2s ease-in-out;
+    color: red;
+    background-color: rgb(10, 37, 61);
+    box-shadow: 1px 3px 1px rgb(237, 5, 5);
 }
