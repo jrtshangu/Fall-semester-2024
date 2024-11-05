@@ -1,0 +1,21 @@
+ {
+    "phone": 829927143,
+    "name": "Jean Robert",
+    "colors": ["red","blue"],
+    "age": 28
+}
+
+[
+    {
+        "name": "Bog Coorporation",
+        "numberOfEmployees": 10000,
+        "ceo": "Mary",
+        "rating": 3.6
+    },
+    {
+       "name": "Small Startup",
+        "numberOfEmployees": 3,
+        "ceo": null,
+        "rating": 4.3 
+    }
+]
