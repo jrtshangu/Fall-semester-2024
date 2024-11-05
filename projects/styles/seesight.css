@@ -1,11 +1,22 @@
 /*working on the registration fom*/
+body{
+    background-image: url("world\ 2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body main{
+    background-image: url("world\ 2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
 main .navigation{
-    height: 80%;
-    width: 60%;
+    height: 10%;
+    width: 70%;
     display: block;
     margin: 0 auto;
     margin-top: 5%;
-    background-color: rgb(74, 133, 243);
+    background-color: transparent;
     border-radius: 10%/10%;
     padding: 2%;
     color: rgb(255, 255, 255);
@@ -21,18 +32,21 @@ main .navigation h1{
 }
 
 main .navigation .quick-links{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 2%;
+    display: inline-flex;
+    margin: 0 auto;
     padding: 2%;
     text-align: center;
 }
 .quick-links a{
     text-decoration: none;
-    font-size: 2em;
+    font-size: 1.3em;
 }
 .quick-links a:hover{
     color: red;
+}
+.quick-links img{
+    width: 100%;
+    border-radius: 10%/10%;
 }
 #language{
     height: 100%;
@@ -51,6 +65,7 @@ main .navigation .quick-links{
 #tourism{
     height: 100%;
     width: 100%;
+    margin-left: 2%;
     background-color: white;
     padding: 2%;
     border-radius: 10%/10%;
@@ -65,6 +80,7 @@ main .navigation .quick-links{
 #online-book{
     height: 100%;
     width: 100%;
+    margin-left: 2%;
     background-color: white;
     padding: 2%;
     border-radius: 10%/10%;

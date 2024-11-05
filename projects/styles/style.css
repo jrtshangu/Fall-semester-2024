@@ -12,6 +12,12 @@ header{
     color: white;
     height: 10%;
 }
+header .header  a{
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-right: 1.4%;
+    color: white;
+}
 header .navigate  img{
     width: 2em;
     
@@ -19,22 +25,28 @@ header .navigate  img{
 
 header .header{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
     grid-gap: 1%;
     align-content: center;
     align-items: center;
 }
 header .header .navigate{
     display: grid;
-    grid-template-columns: 0.5fr 1fr 0.5fr;
+    grid-template-columns: 1fr 1fr 0.5fr;
     grid-gap: 2%;
     align-items: center;
 }
-/*setting grid for the media div class*/
-header .header .navigate .media{
-    display: grid;
-    grid-template-rows: repeat(3,1fr);
-    grid-gap: 5%;
+/*setting grid for the div header links class*/
+.navigate .info a{
+    display: block;
+    text-align: center;
+}
+.navigate .media a{
+    display: block;
+    text-align: center;
+}
+ .navigate .media{
+    
     justify-content: center;
     justify-items: center;
     border-left: 2px solid red;
@@ -42,24 +54,29 @@ header .header .navigate .media{
     padding: 2%;
 
 }
-header .header  a{
-    text-decoration: none;
-    font-size: 1.2em;
-    margin-right: 1.4%;
-    color: white;
-}
+
 /*Links hovering effects*/
 header .header .media a:hover{
     transition: all 0.3s ease-in-out;
     background-color: white;
     color: rgb(74, 133, 243);
+    border-bottom: 1px solid red;
     
 }
 header .header .info a:hover{
     transition: all 0.3s ease-in-out;
     background-color: white;
     color: rgb(74, 133, 243);
+    box-shadow: 1px 2px rgb(248, 246, 246);
+    border-radius: 10%/10%;
+    border-bottom: 2px solid red;
     
+} 
+.conection img:hover{
+    width: 2.2em;
+    border: 2px dotted red;
+    border-radius: 50%/50%;
+    box-shadow: 2px 2px rgb(5, 5, 5);
 }
 
 /*Working the section elements*/
