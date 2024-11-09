@@ -262,7 +262,7 @@ footer .footer .contacts{
     grid-template-columns: 0.5fr 1fr;
     text-align: left;
     align-items: center;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     color: rgb(245, 6, 6);
     padding: 1%;
     border-top: 2px solid red;

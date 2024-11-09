@@ -1,8 +1,6 @@
 /*working on the registration fom*/
 body{
-    background-image: url("world\ 2.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: white;
 }
 body main{
     background-image: url("world\ 2.jpg");
@@ -20,7 +18,6 @@ main .navigation{
     border-radius: 10%/10%;
     padding: 2%;
     color: rgb(255, 255, 255);
-    border: 2px solid white;
     box-shadow: 1px 2px 1px black;
     
 
@@ -91,4 +88,8 @@ main .navigation .quick-links{
     color: red;
     background-color: rgb(10, 37, 61);
     box-shadow: 1px 3px 1px rgb(237, 5, 5);
+}
+
+footer{
+    margin-top: 10%;
 }
